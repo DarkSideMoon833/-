@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+/* General styles */
+body {
+    font-family: "Montserrat";
+    font-size: 1em;
+
+}
+
+/* Header styles (1 page) */
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 2.5em 3em;
+    justify-content: space-between;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+.logo{
+     max-width: 100%;
+}
+.nav-menu {
+    text-align: right;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu-item {
+    margin-left: 3.1em;
+    font-size: 1.14rem;
+}
+
+.menu-button button {
+    margin-left: 1.3em;
+}
+
+/* Buttons */
+.blue-button {
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 2em 3em;
+    border-radius: 4.8em;
+    border: none;
+}
+
+.white-button {
+    background-color: white;
+    border: 2px solid #7AE5FD;
+    color: #000;
+}
+
+/* First screen (2 page) */
+.first-screen {
+    background-image: url('./assets/images/Hero-main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+}
+
+.first-screen-container {
+    width: 50vw;
+    padding-left: 10em;
+}
+
+.main-title {
+    font-weight: 800;
+    font-size: 5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color:white;
+}
+
+.main-description {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+/* About section (3 page) */
+.about-section {
+    padding: 10vh 6vw 4vh;
+    text-align: center;
+}
+.about-container{
+        margin-top: 5em;
+    margin-bottom: 6em;
+}
+.about-title {
+    font-size: 4rem;
+    margin-bottom: 0.5em;
+    overflow-wrap: break-word;
+}
+
+.about-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+.about-text {
+    font-size: 1rem;
+    font-style: italic;
+    color:#73A6B1;
+}
+
+/* Description blocks (4 page) */
+.description-screen {
+    padding: 5vh 6vw;
+}
+
+.description-block {
+    display: flex;
+    flex-direction: row;
+    background-color: #F1FDFF;
+    padding: 2vh 3vw;
+    gap: 5vw;
+    margin-bottom: 3vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-wrapper{
+    max-width: 50%;
+    word-wrap: break-word;
+}
+
+.block-img {
+    width: 70vw;
+    max-height: 90vh;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+.desc-header {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.desc-text {
+    font-size: 1.5rem;
+}
+
+.more-button-container {
+    text-align: center;
+    margin-top: 3em;
+}
+
+/* Mission section (5 page) */
+
+.mission-section {
+    background-color: #F1FDFF;
+    padding: 6vh 6vw;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 3vw; 
+    flex-wrap: wrap; 
+    text-align: left;
+}
+
+.mission-text {
+    font-size: 2.2rem;
+    max-width: 40vw;
+    margin: 0 auto;
+}
+
+.mission-img {
+    background-image: url(./assets/images/Background-happykids.png) ;
+    width: 30vw;
+    max-height: 90vh;
+    object-fit:contain;
+    border-radius: 1em;
+}
+
+/* Support section (6 page) */
+.support-section {
+    text-align: center;
+    padding: 4em 2em;
+}
+
+.support-title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.support-subtitle {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    color:#73A6B1;
+}
+
+.support-goal {
+    font-size: 1.6rem;
+    margin-bottom: 0.8em;
+}
+
+.support-counter {
+    font-size: 3.5em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    margin-bottom: 2em;
+}
+/* Contacts section (7 page) */
+.contacts-section {
+    align-items: center;
+    background-color: #F9FADF;
+    padding: 3em 2em;
+}
+.contacts-info{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15em;
+}
+.contacts-title {
+    font-size: 4.5rem;
+    margin-bottom: 0.5em;
+}
+.contacts-text-icons{
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.margin{
+  padding-top: 4em;
+  margin-top: 4em;  
+}
+.contacts-text {
+    font-size: 1.2rem;
+    margin-bottom: 3em;
+}
+.number{
+    font-weight:bold;
+}
+.contacts-email{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: white;
+    border-radius:3em ;
+    align-items: center;
+    gap:10em;
+}
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 1em;
+    margin-top: 1em;
+    max-width: 400px;
+}
+
+.subscribe-input {
+    padding: 0.8em;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #F9FADF;
+}
+
+.subscribe-text {
+    font-size: 1.4rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+    .description-block {
+        flex-direction: column;
+    }
+
+    .first-screen-container,
+    .block-img,
+    .mission-img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .first-screen {
+        flex-direction: column;
+        padding: 2em;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1em;
+    }
+
+    .menu-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .subscribe-form {
+        max-width: 100%;
+    }
+}
